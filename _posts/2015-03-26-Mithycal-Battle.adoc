@@ -3,8 +3,9 @@
 :hp-tags: Portfolio, Game Dev, Android, Netty, LibGDX
 
 :uri-netty: http://netty.io/
+:uri-libdgx: http://libgdx.badlogicgames.com/
 
-Mythical Battle juego para android y escritorio basado en turnos, estrategia, cartas multijugador en línea, no se terminó el juego debido al alcance, sin embargo se alcanzaron bastantes puntos:
+Mythical Battle juego para android y escritorio realizado con {uri-libdgx}[LibGDX] basado en turnos, estrategia, cartas multijugador en línea, no se terminó el juego debido al alcance, sin embargo se alcanzaron bastantes puntos:
 
 * Se logró implementar un pequeño servidor usando {uri-netty}[Netty].
 * Se implementó una estructura de datos y se implemento la comunicación entre los clientes android y cliente escritorio.
