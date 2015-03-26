@@ -22,3 +22,5 @@ image::http://i.imgur.com/7ABpZYF.png[Mithycal Battle, role=center]
 image::http://i.imgur.com/AF5DSUp.png[Mithycal Battle, role=center]
 
 Aquí está el repo en {uri-repomb}[GitHub]
+
+Si tienes alguna pregunta/consulta/observación déjala en los comentarios :)
