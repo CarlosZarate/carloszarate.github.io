@@ -1,0 +1,41 @@
+= Submarine
+:hp-tags: Portfolio, Box2D, Spriter, LibGDX, Android
+
+:hp-image: http://i.imgur.com/DlEpA2j.png
+
+:uri-box2d: http://box2d.org/
+:uri-spriter: http://www.brashmonkey.com/
+:uri-universal: https://github.com/libgdx/libgdx/wiki/Universal-Tween-Engine
+:uri-rube: https://www.iforce2d.net/rube/
+:uri-reposubmarino: https://github.com/CarlosZarate/Submarino
+
+Este proyecto presenta la implementación de un prototipo de juego, cuyo objetivo es dirigir a un submarino a través de una caverna submarina evitando los obstáculos, aunque el juego no está terminado, se ha implementado los siguientes elementos:
+
+* Detección de colisiones usando {uri-box2d}[Box2D].
+* Comportamiento de los enemigos así como sus ciclos de movimientos.
+* Animación de personajes usando {uri-spriter}[Spriter (BrashMonkey)].
+* Sistema de partículas, que son visibles en las burbujas que impulsan la nave.
+* Callbacks y Ciclos de traslación, coloración y rotación, estos ciclos están basadas en funciones y Bezier gracias a la librería {uri-universal}[UniversalTweenEngine].
+* Importación de niveles diseñados en {uri-rube}[RUBE Box2d Editor] en formato json.
+* Manejo de la gravedad del ambiente.
+* Uso de sensores.
+
+Es posible descargar los ejecutables apk y jar para Android y escritorio respectivamente, desde el repo en {uri-reposubmarino}[Github].
+
+.Así comenzó la Nave
+image::http://i.imgur.com/k78xMzi.png[Submarine, 500, role=center]
+.Sketch de la nave, prototipo 1
+image::http://i.imgur.com/Vstkw7U.png[Submarine, 400, role=left]
+.Prototipo 1 listo!
+image::http://i.imgur.com/svSLy2z.png[Submarine, 400, role=right]
+.Sketch de la nave, prototipo final
+image::http://i.imgur.com/raf9FUa.png[Submarine, 400, role=left]
+.Nave lista!
+image::http://i.imgur.com/HGh8ZPz.png[Submarine, 400, role=right]
+.Roca
+image::http://i.imgur.com/SjkbE3M.png[Submarine, 500, role=center]
+.Test en Desktop
+image::http://i.imgur.com/DlEpA2j.png[Submarine]
+
+.Test en tablet Android [mi tablet Woo rota :'(]
+image::http://i.imgur.com/BoMgxOi.jpg[Submarine]
