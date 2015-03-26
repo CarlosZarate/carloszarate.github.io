@@ -1,0 +1,20 @@
+= Mithycal Battle
+
+:hp-tags: Portfolio, Game Dev, Android, Netty, LibGDX
+
+:uri-netty: http://netty.io/
+
+Mythical Battle juego para android y escritorio basado en turnos, estrategia, cartas multijugador en línea, no se terminó el juego debido al alcance, sin embargo se alcanzaron bastantes puntos:
+
+* Se logró implementar un pequeño servidor usando {uri-netty}[Netty].
+* Se implementó una estructura de datos y se implemento la comunicación entre los clientes android y cliente escritorio.
+* La base de datos se descarga desde un servidor en formato SQLite y se almacena en la memoria interna para no ser alterada.
+* Se implementó la GUI de las vistas Login, Loby, Room y StartGame.
+* Se implementó la mecánica básica del juego.
+
+A continuación unas imágenes de lo que logre hacer:
+
+image::http://i.imgur.com/JDeNlEK.png[Mithycal Battle, role=center]
+image::http://i.imgur.com/n5JaWrt.png[Mithycal Battle, role=center]
+image::http://i.imgur.com/7ABpZYF.png[Mithycal Battle, role=center]
+image::http://i.imgur.com/AF5DSUp.png[Mithycal Battle, role=center]
