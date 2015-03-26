@@ -4,6 +4,7 @@
 
 :uri-netty: http://netty.io/
 :uri-libdgx: http://libgdx.badlogicgames.com/
+:uri-repomb: https://github.com/CarlosZarate/mb
 
 Mythical Battle juego para android y escritorio realizado con {uri-libdgx}[LibGDX] basado en turnos, estrategia, cartas multijugador en línea, no se terminó el juego debido al alcance, sin embargo se alcanzaron bastantes puntos:
 
@@ -20,4 +21,4 @@ image::http://i.imgur.com/n5JaWrt.png[Mithycal Battle, role=center]
 image::http://i.imgur.com/7ABpZYF.png[Mithycal Battle, role=center]
 image::http://i.imgur.com/AF5DSUp.png[Mithycal Battle, role=center]
 
-Aquí está el repo en GitHub: https://github.com/CarlosZarate/mb
+Aquí está el repo en {uri-repomb}[GitHub]
