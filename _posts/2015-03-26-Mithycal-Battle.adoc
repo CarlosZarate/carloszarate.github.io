@@ -14,7 +14,7 @@ Mythical Battle juego para android y escritorio realizado con {uri-libdgx}[LibGD
 * Se implementó la GUI de las vistas Login, Loby, Room y StartGame.
 * Se implementó la mecánica básica del juego.
 
-A continuación unas imágenes de lo que logre hacer:
+A continuación unas imágenes de lo que logré hacer:
 
 image::http://i.imgur.com/JDeNlEK.png[Mithycal Battle, role=center]
 image::http://i.imgur.com/n5JaWrt.png[Mithycal Battle, role=center]
