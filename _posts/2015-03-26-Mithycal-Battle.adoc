@@ -19,3 +19,5 @@ image::http://i.imgur.com/JDeNlEK.png[Mithycal Battle, role=center]
 image::http://i.imgur.com/n5JaWrt.png[Mithycal Battle, role=center]
 image::http://i.imgur.com/7ABpZYF.png[Mithycal Battle, role=center]
 image::http://i.imgur.com/AF5DSUp.png[Mithycal Battle, role=center]
+
+Aquí está el repo en GitHub: https://github.com/CarlosZarate/mb
