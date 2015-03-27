@@ -25,13 +25,13 @@ Es posible descargar los ejecutables apk y jar para Android y escritorio respect
 .Así comenzó la Nave
 image::http://i.imgur.com/k78xMzi.png[Submarine, 500, align=center]
 .Sketch de la nave, prototipo 1
-image::http://i.imgur.com/Vstkw7U.png[Submarine, 400, align=left]
+image::http://i.imgur.com/Vstkw7U.png[Submarine, 300, role=left]
 .Prototipo 1 listo!
-image::http://i.imgur.com/svSLy2z.png[Submarine, 400, align=right]
+image::http://i.imgur.com/svSLy2z.png[Submarine, 300, role=right]
 .Sketch de la nave, prototipo final
-image::http://i.imgur.com/raf9FUa.png[Submarine, 400, role=left]
+image::http://i.imgur.com/raf9FUa.png[Submarine, 300, role=left]
 .Nave lista!
-image::http://i.imgur.com/HGh8ZPz.png[Submarine, 400, role=right]
+image::http://i.imgur.com/HGh8ZPz.png[Submarine, 300, role=right]
 .Roca
 image::http://i.imgur.com/SjkbE3M.png[Submarine, 500, align=center]
 .Test en Desktop
