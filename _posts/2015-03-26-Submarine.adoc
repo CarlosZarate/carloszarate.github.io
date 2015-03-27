@@ -23,7 +23,7 @@ Este proyecto presenta la implementación de un prototipo de juego, cuyo objetiv
 Es posible descargar los ejecutables apk y jar para Android y escritorio respectivamente, desde el repo en {uri-reposubmarino}[Github].
 
 .Así comenzó la Nave
-image::http://i.imgur.com/k78xMzi.png[Submarine, 500, role=center]
+image::http://i.imgur.com/k78xMzi.png[Submarine, 500, align=center]
 .Sketch de la nave, prototipo 1
 image::http://i.imgur.com/Vstkw7U.png[Submarine, 400, role=left]
 .Prototipo 1 listo!
@@ -33,7 +33,7 @@ image::http://i.imgur.com/raf9FUa.png[Submarine, 400, role=left]
 .Nave lista!
 image::http://i.imgur.com/HGh8ZPz.png[Submarine, 400, role=right]
 .Roca
-image::http://i.imgur.com/SjkbE3M.png[Submarine, 500, role=center]
+image::http://i.imgur.com/SjkbE3M.png[Submarine, 500, align=center]
 .Test en Desktop
 image::http://i.imgur.com/DlEpA2j.png[Submarine]
 
