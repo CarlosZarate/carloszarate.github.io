@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Submarine</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="//carloszarate.github.io/themes/Casper/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="//carloszarate.github.io/themes/Casper/assets/css/screen.css?v=1.0.0" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="https://carloszarate.github.io/2015/03/26/Submarine.html" />
+    
+    <meta property="og:site_name" content="Carlos Zárate" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Submarine" />
+    <meta property="og:description" content="Este proyecto presenta la implementación de un prototipo de juego, cuyo objetivo es dirigir a un submarino a través de una caverna submarina evitando los obstáculos, aunque el juego no está terminado, se ha implementado los siguientes elementos: Detección de..." />
+    <meta property="og:url" content="https://carloszarate.github.io/2015/03/26/Submarine.html" />
+    <meta property="og:image" content="http://i.imgur.com/DlEpA2j.png" />
+    <meta property="article:published_time" content="2015-03-26T05:00:00.000Z" />
+    <meta property="article:modified_time" content="2015-03-27T00:05:49.880Z" />
+    <meta property="article:tag" content="Portfolio" />
+    <meta property="article:tag" content="Box2D" />
+    <meta property="article:tag" content="Spriter" />
+    <meta property="article:tag" content="LibGDX" />
+    <meta property="article:tag" content="Android" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Submarine" />
+    <meta name="twitter:description" content="Este proyecto presenta la implementación de un prototipo de juego, cuyo objetivo es dirigir a un submarino a través de una caverna submarina evitando los obstáculos, aunque el juego no está terminado, se ha implementado los siguientes elementos: Detección de..." />
+    <meta name="twitter:url" content="https://carloszarate.github.io/2015/03/26/Submarine.html" />
+    <meta name="twitter:image:src" content="http://i.imgur.com/DlEpA2j.png" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Carlos Zárate",
+    "author": {
+        "@type": "Person",
+        "image": "https://avatars.githubusercontent.com/u/1760164?v=3",
+        "url": "undefined/author/undefined"
+    },
+    "headline": "Submarine",
+    "url": "https://carloszarate.github.io/2015/03/26/Submarine.html",
+    "datePublished": "2015-03-26T05:00:00.000Z",
+    "dateModified": "2015-03-27T00:05:49.880Z",
+    "image": "http://i.imgur.com/DlEpA2j.png",
+    "keywords": "Portfolio,  Box2D,  Spriter,  LibGDX,  Android",
+    "description": "Este proyecto presenta la implementación de un prototipo de juego, cuyo objetivo es dirigir a un submarino a través de una caverna submarina evitando los obstáculos, aunque el juego no está terminado, se ha implementado los siguientes elementos: Detección de..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="Carlos Zárate" href="https://carloszarate.github.io/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+</head>
+<body class="post-template tag-Portfolio tag-Box2D tag-Spriter tag-LibGDX tag-Android">
+
+    
+
+
+<header class="main-header post-head " style="background-image: url(http://i.imgur.com/DlEpA2j.png)">
+    <nav class="main-nav overlay clearfix">
+        <a class="back-button icon-arrow-left" href="https://carloszarate.github.io">Home</a>
+        <!-- <a class="subscribe-button icon-feed" href="https://carloszarate.github.io/rss/">Subscribe</a> -->
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post tag-Portfolio tag-Box2D tag-Spriter tag-LibGDX tag-Android">
+
+        <header class="post-header">
+            <h1 class="post-title">Submarine</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-03-26">26 March 2015</time>  on <a href="https://carloszarate.github.io/tag/Portfolio">Portfolio</a>, <a href="https://carloszarate.github.io/tag/Box2D"> Box2D</a>, <a href="https://carloszarate.github.io/tag/Spriter"> Spriter</a>, <a href="https://carloszarate.github.io/tag/LibGDX"> LibGDX</a>, <a href="https://carloszarate.github.io/tag/Android"> Android</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <div class="paragraph">
+<p>Este proyecto presenta la implementación de un prototipo de juego, cuyo objetivo es dirigir a un submarino a través de una caverna submarina evitando los obstáculos, aunque el juego no está terminado, se ha implementado los siguientes elementos:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Detección de colisiones usando <a href="http://box2d.org/">Box2D</a>.</p>
+</li>
+<li>
+<p>Comportamiento de los enemigos así como sus ciclos de movimientos.</p>
+</li>
+<li>
+<p>Animación de personajes usando <a href="http://www.brashmonkey.com/">Spriter (BrashMonkey)</a>.</p>
+</li>
+<li>
+<p>Sistema de partículas, que son visibles en las burbujas que impulsan la nave.</p>
+</li>
+<li>
+<p>Callbacks y Ciclos de traslación, coloración y rotación, estos ciclos están basadas en funciones y Bezier gracias a la librería <a href="https://github.com/libgdx/libgdx/wiki/Universal-Tween-Engine">UniversalTweenEngine</a>.</p>
+</li>
+<li>
+<p>Importación de niveles diseñados en <a href="https://www.iforce2d.net/rube/">RUBE Box2d Editor</a> en formato json.</p>
+</li>
+<li>
+<p>Manejo de la gravedad del ambiente.</p>
+</li>
+<li>
+<p>Uso de sensores.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Es posible descargar los ejecutables apk y jar para Android y escritorio respectivamente, desde el repo en <a href="https://github.com/CarlosZarate/Submarino">Github</a>.</p>
+</div>
+<div class="imageblock" style="text-align: center">
+<div class="content">
+<img src="http://i.imgur.com/k78xMzi.png" alt="Submarine" width="500">
+</div>
+<div class="title">Figure 1. Así comenzó la Nave</div>
+</div>
+<div class="imageblock left">
+<div class="content">
+<img src="http://i.imgur.com/Vstkw7U.png" alt="Submarine" width="400">
+</div>
+<div class="title">Figure 2. Sketch de la nave, prototipo 1</div>
+</div>
+<div class="imageblock right">
+<div class="content">
+<img src="http://i.imgur.com/svSLy2z.png" alt="Submarine" width="400">
+</div>
+<div class="title">Figure 3. Prototipo 1 listo!</div>
+</div>
+<div class="imageblock left">
+<div class="content">
+<img src="http://i.imgur.com/raf9FUa.png" alt="Submarine" width="400">
+</div>
+<div class="title">Figure 4. Sketch de la nave, prototipo final</div>
+</div>
+<div class="imageblock right">
+<div class="content">
+<img src="http://i.imgur.com/HGh8ZPz.png" alt="Submarine" width="400">
+</div>
+<div class="title">Figure 5. Nave lista!</div>
+</div>
+<div class="imageblock" style="text-align: center">
+<div class="content">
+<img src="http://i.imgur.com/SjkbE3M.png" alt="Submarine" width="500">
+</div>
+<div class="title">Figure 6. Roca</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://i.imgur.com/DlEpA2j.png" alt="Submarine">
+</div>
+<div class="title">Figure 7. Test en Desktop</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://i.imgur.com/BoMgxOi.jpg" alt="Submarine">
+</div>
+<div class="title">Figure 8. Test en tablet Android [mi tablet Woo rota :'(]</div>
+</div>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="" style="background-image: url(https://avatars.githubusercontent.com/u/1760164?v=3)"><span class="hidden">'s Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href=""></a></h4>
+
+                    <p>Read <a href="">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=Submarine&amp;url=https://carloszarate.github.io/2015/03/26/Submarine.html"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://carloszarate.github.io/2015/03/26/Submarine.html"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://carloszarate.github.io/2015/03/26/Submarine.html"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+
+        <section class="post-comments">
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+          var disqus_shortname = 'carloszarateblog'; // required: replace example with your forum shortname
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </section>
+
+
+    </article>
+
+</main>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="https://carloszarate.github.io">Carlos Zárate</a> &copy; 2015</section>
+        <section class="poweredby">Proudly published with <a href="http://hubpress.io">HubPress</a></section>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//carloszarate.github.io/themes/Casper/assets/js/jquery.fitvids.js?v=1.0.0"></script>
+    <script type="text/javascript" src="//carloszarate.github.io/themes/Casper/assets/js/index.js?v=1.0.0"></script>
+
+</body>
+</html>
