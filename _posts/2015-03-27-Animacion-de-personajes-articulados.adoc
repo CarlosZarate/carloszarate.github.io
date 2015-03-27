@@ -1,0 +1,14 @@
+= Animación de personajes articulados
+:hp-tags: Blog, Character Design, Game Design
+
+:uri-spriter: http://www.brashmonkey.com/
+
+Para animar los personajes cuento con la herramienta {uri-spriter}[Spriter (BrashMonky)], pero para poder facilitar el trabajo en la animación, tengo que considerar algunos aspectos importantes en el diseño de personajes, ya que para animarlos en necesario que cuenten con articulaciones.
+
+El problema surge cuando no se tiene en cuenta las áreas de rotación un los elementos de el personaje se superponen de manera incorrecta, los bordes de los miembros suelen notarse sobre otros miembros, por eso es necesario considerar agregar algunos elementos al personaje que ayuden a evitar estos problemas, como rodilleras, coderas, hombreras, etc.
+
+Otra consideración adicional es tener en cuenta los elementos dinámicos como el cabello, este es un elemento difícil porque la animación de este ayudará en la vida del personaje y ya que es una animación basada en articulaciones su animación aumentara mucho la dificultad del trabajo con el personaje por lo que considero que para un proyecto sencillo evitar este elemento, es mejor colocarle el cabello corto o usar cascos u otros.
+
+El siguiente personaje no cuentas con estos elementos facilitan la animación, los bordes de las articulaciones del antebrazo se superpondrán sobre el brazo al momento de rotar, de la misma manera ocurre en la pierna, y contamos con un elemento como el cabello que no puede permanecer estático.
+
+image::https://40.media.tumblr.com/b3c43876f15409d7b9fdd317431ccd6c/tumblr_inline_nlmgn1gFJh1s9ro0w_500.png[Soldado, align=center]
