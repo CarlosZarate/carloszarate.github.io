@@ -32,13 +32,13 @@ image::http://i.imgur.com/Vstkw7U.png[Submarine, 350, align=center]
 image::http://i.imgur.com/svSLy2z.png[Submarine, 350, align=center]
 
 .Sketch de la nave, prototipo final
-image::http://i.imgur.com/raf9FUa.png[Submarine, 350, align=center]
+image::http://i.imgur.com/raf9FUa.png[Submarine, 300, align=center]
 
 .Nave lista!
-image::http://i.imgur.com/HGh8ZPz.png[Submarine, 350, align=center]
+image::http://i.imgur.com/HGh8ZPz.png[Submarine, 300, align=center]
 
 .Roca
-image::http://i.imgur.com/SjkbE3M.png[Submarine, 350, align=center]
+image::http://i.imgur.com/SjkbE3M.png[Submarine, 300, align=center]
 
 .Test en Desktop
 image::http://i.imgur.com/DlEpA2j.png[Submarine]
